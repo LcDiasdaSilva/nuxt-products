@@ -7,6 +7,7 @@ Desenvolvendo uma galeria de produtos, acessando um banco mysql com prisma.
 View [Demo Nuxt Products ui](https://nuxt-products-rouge.vercel.app/).
 View [Demo /api/products](https://nuxt-products-rouge.vercel.app/api/products).
 
+![Galeria](public/galeria.jpg)
 
 # Prisma
 
