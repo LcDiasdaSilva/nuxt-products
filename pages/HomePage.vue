@@ -4,7 +4,7 @@
   width: 100%;
   max-width: 1000px;
   margin: auto;
-  padding: 1rem;
+  padding: 1rem 1rem 5rem 2rem ;
 }
 </style>
 <template>

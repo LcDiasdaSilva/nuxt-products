@@ -2,23 +2,26 @@
 
 Nuxt + SSE + Vuetify + Prisma
 
-Desenvolvendo uma galeria de produtos, acessando um banco mysql com prisma. 
+Desenvolvendo uma galeria de produtos, acessando um banco mysql com prisma.
+
+DEMO [Nuxt Products](https://nuxt-products-rouge.vercel.app/) to learn more.
+
+# Prisma
+
+```bash
 
 /api/products
 
-`model Product {
+model Product 
   id        Int      @id @default(autoincrement())
   name      String?
   type      String?
   price     Float?
   code      String?
   createdAt DateTime @default(now())
-
   @@map("products")
-}`
 
-
-DEMO [Nuxt Products](https://nuxt.com/docs/getting-started/introduction) to learn more.
+```
 
 ## Setup
 
@@ -49,6 +52,3 @@ Build the application for production:
 npm run build
 
 ```
-
-
-
